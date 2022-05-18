@@ -1,0 +1,12 @@
+I=imread("Profile.jpg");
+imshow(i);
+#grayimage=rgb2gray(I);
+#figur, imshow(grayimage);
+#binaryimage=im2bw(I);
+#figure, imshow(binaryimage)
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+I=imread('Apple.jpg');
+
+subplot(2,2,1); imshow(I);
+
+b=rgb2gray(I);
+
+subplot(2,2,2); imshow(b);
+
+c=im2bw(b,0.92)
+
+subplot(2,2,3); imshow(c);
+
+c = 1-c;
+
+subplot(2,2,4);  imshow(c);
